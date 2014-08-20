@@ -1,0 +1,20 @@
+<html>
+<head>
+	
+</head>
+<body>
+	<form name="buckysForm">
+		Username: <input type="text" name="username"/>
+		Password: <input type="password" name="password"/>
+		<input type="submit" value="submit"  />
+	</form>
+
+
+	<script type="text/javascript">
+		var x = document.forms[0].elements[1].name;
+		document.write(x + "<br />");
+		var y = document.buckysForm.username.name;
+		document.write(y);
+	</script>
+</body>
+</html>
